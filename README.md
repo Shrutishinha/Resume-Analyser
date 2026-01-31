@@ -1,115 +1,134 @@
-📄 Resume Analyzer (HTML • CSS • JavaScript)
+📄 Resume Analyzer
+HTML • CSS • JavaScript (Frontend Project)
 
-A client-side Resume Analyzer web application that allows users to upload or paste resume content and instantly analyze it for skills, keywords, structure, and basic ATS compatibility using pure HTML, CSS, and JavaScript — no backend required.
+A browser-based Resume Analyzer built using HTML, CSS, and Vanilla JavaScript.
+The application performs client-side, keyword-based resume analysis to evaluate technical skill presence and provide basic improvement suggestions — without using any backend, AI, or external libraries.
 
-🚀 Features
+✅ All processing happens locally in the browser
+❌ No AI/ML or server-side processing (by design)
 
-📂 Upload resume (PDF/Text) or paste resume content
+✨ Key Highlights
 
-🔍 Keyword & skill matching based on predefined tech stacks
+⚡ Fully frontend (no backend required)
 
-📊 Resume score calculation
+📂 Upload or paste resume content
 
-🧠 ATS-friendly checks (keywords, length, formatting hints)
+🔍 Skill & keyword detection
 
-🎯 Role-based skill analysis (Frontend, Backend, Data, etc.)
+📊 Basic resume scoring logic
 
-💡 Suggestions to improve resume quality
+🧠 ATS-oriented keyword checks
 
-💻 Fully browser-based (no server needed)
+💡 Improvement suggestions
 
-🎨 Responsive and clean UI
+🎨 Clean, responsive UI
+
+🧠 How the Resume Analysis Works
+
+The analysis is rule-based and deterministic, implemented entirely in JavaScript:
+
+Resume text is read using the FileReader API
+
+Text is normalized (lowercase, cleaned symbols)
+
+Keywords are matched against predefined skill sets
+
+A score is calculated based on matched skills
+
+Missing or weak areas are identified
+
+Results are dynamically rendered on the UI
+
+This approach helps demonstrate JavaScript logic, DOM manipulation, and text processing fundamentals.
 
 🛠️ Tech Stack
-Technology	Usage
-HTML5	Page structure
+Technology	Purpose
+HTML5	Structure & layout
 CSS3	Styling & responsiveness
-JavaScript (ES6)	Resume parsing & logic
-FileReader API	Reading uploaded files
-DOM Manipulation	Dynamic results rendering
-📂 Project Structure
+JavaScript (ES6)	Analysis logic & DOM updates
+FileReader API	Reading resume files
+📁 Project Structure
 resume-analyzer/
 │
-├── index.html        # Main HTML file
-├── style.css         # Styling
-├── script.js         # Resume analysis logic
-├── assets/           # Icons / images
-└── README.md         # Project documentation
+├── index.html       # Main UI
 
+├── style.css        # Styling & layout
 
-⚙️ How It Works
+├── script.js        # Resume analysis logic
 
-User uploads a resume or pastes text
+├── assets/          # Images / icons
 
-JavaScript parses the content
+└── README.md
 
-Keywords & skills are extracted
-
-Resume is compared against predefined skill sets
-
-A score and improvement suggestions are generated
-
-Results are displayed instantly on the UI
-
-🧪 Example Skills Analyzed
+📊 Skills Evaluated (Configurable)
 
 HTML, CSS, JavaScript
 
-React, Node.js
+React (keyword-based)
 
 Java, Python
 
 SQL, MongoDB
 
-Data Structures & Algorithms
+Git & GitHub
 
-Machine Learning basics
+Data Structures (basic terms)
 
-(Customizable inside script.js)
+Skill lists and scoring weights can be modified inside script.js.
 
-🖥️ How to Run Locally
+🖥️ Run Locally
 git clone https://github.com/your-username/resume-analyzer.git
 cd resume-analyzer
 
 
-➡️ Open index.html in your browser
-(No server or installation required)
+Open index.html in any modern browser.
 
-📸 Screenshots
+✔ No setup
+✔ No dependencies
+✔ Works offline
 
-(Add screenshots here once uploaded)
+🎯 Intended Use
 
-/assets/screenshots/home.png
-/assets/screenshots/result.png
+Frontend development practice
 
-🎯 Use Cases
+Academic / mini-project submission
 
-Students checking resume quality
+Understanding client-side file handling
 
-Freshers preparing ATS-friendly resumes
+Demonstrating JavaScript logic & UI skills
 
-Frontend project demonstration
+Portfolio project for beginners–intermediate level
 
-Hackathon / mini-project submission
+⚠️ Limitations (Transparent)
 
-🔮 Future Enhancements
+Keyword-based analysis only
 
-PDF keyword highlighting
+No semantic or contextual understanding
 
-Job description matching
+No OCR or scanned PDF support
 
-Resume ranking system
+No real ATS or recruiter system integration
+
+No machine learning or NLP
+
+🔮 Future Scope
+
+Job description vs resume comparison
+
+Enhanced PDF text extraction
+
+Custom role-based skill selection
 
 Downloadable analysis report
 
-AI-based skill suggestions
+Backend integration (Node.js)
 
 👩‍💻 Author
 
 Shruti
-Frontend Developer | Tech Enthusiast
-📌 HTML • CSS • JavaScript • Data Science
+Frontend Developer
+Skills: HTML • CSS • JavaScript • Data Analysis
 
-⭐ Show Your Support
+⭐ Support
 
-If you like this project, please ⭐ star the repository — it really helps!
+If you find this project useful or insightful, consider giving it a ⭐ on GitHub.
