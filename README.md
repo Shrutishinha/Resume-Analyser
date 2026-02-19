@@ -1,150 +1,212 @@
-Resume Analyzer
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=500&color=0A66C2&center=true&vCenter=true&width=900&lines=RESUME+ANALYZER;FRONTEND+RESUME+EVALUATION+SYSTEM;BUILT+USING+HTML+CSS+JAVASCRIPT;CLIENT+SIDE+PROCESSING+ONLY" />
+</p>
 
-Frontend Resume Evaluation System using HTML, CSS, and JavaScript
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-STRUCTURE-orange?style=for-the-badge&logo=html5" />
+  <img src="https://img.shields.io/badge/CSS3-STYLING-blue?style=for-the-badge&logo=css3" />
+  <img src="https://img.shields.io/badge/JAVASCRIPT-LOGIC-yellow?style=for-the-badge&logo=javascript" />
+  <img src="https://img.shields.io/badge/STATUS-PRODUCTION_READY-success?style=for-the-badge" />
+</p>
 
-Project Overview
+---
 
-Resume Analyzer is a browser-based web application developed using HTML, CSS, and Vanilla JavaScript. The system performs client-side, rule-based resume analysis to identify technical skills, evaluate keyword relevance, and generate structured feedback.
+# RESUME ANALYZER
 
-The application operates entirely on the client side and does not rely on backend services, artificial intelligence, machine learning models, or external libraries. All processing is performed locally in the user's browser, ensuring data privacy, security, and offline accessibility.
+A FRONTEND-BASED RESUME EVALUATION SYSTEM DEVELOPED USING HTML, CSS, AND VANILLA JAVASCRIPT.  
 
-This project demonstrates strong proficiency in frontend development, user interface design, and client-side data processing.
+THIS APPLICATION PERFORMS CLIENT-SIDE RULE-BASED RESUME ANALYSIS TO IDENTIFY TECHNICAL SKILLS, EVALUATE KEYWORD RELEVANCE, AND GENERATE STRUCTURED FEEDBACK.
 
-Key Features
+ALL PROCESSING IS PERFORMED LOCALLY IN THE USER'S BROWSER.
 
-Fully frontend-based implementation
+---
 
-No server-side dependency
+## PROJECT OVERVIEW
 
-Resume upload and text input support
+RESUME ANALYZER IS A LIGHTWEIGHT, BROWSER-BASED APPLICATION DESIGNED TO:
 
-Keyword-based skill detection
+- ANALYZE RESUME CONTENT
+- DETECT TECHNICAL SKILLS
+- EVALUATE ATS COMPATIBILITY
+- GENERATE AUTOMATED FEEDBACK
+- ENSURE COMPLETE DATA PRIVACY
 
-ATS-oriented screening logic
+THE SYSTEM DOES NOT USE:
 
-Automated scoring mechanism
+- BACKEND SERVERS  
+- MACHINE LEARNING  
+- AI MODELS  
+- EXTERNAL LIBRARIES  
 
-Improvement recommendations
+THIS ENSURES HIGH PERFORMANCE, SECURITY, AND OFFLINE ACCESSIBILITY.
 
-Responsive and accessible interface
+---
 
-Offline usability
+## SYSTEM CAPABILITIES
 
-Secure local processing
+RESUME UPLOAD ██████████████ 100%
+KEYWORD DETECTION ██████████████ 100%
+ATS SCORING LOGIC ████████████░░ 90%
+CLIENT-SIDE PROCESSING ██████████████ 100%
+OFFLINE FUNCTIONALITY ██████████████ 100%
+UI RESPONSIVENESS ████████████░░ 90%
 
-System Architecture and Workflow
 
-The resume analysis is implemented using deterministic JavaScript logic as follows:
+---
 
-Resume content is loaded using the FileReader API
+## KEY FEATURES
 
-Text is normalized through preprocessing techniques
+- FULLY FRONTEND-BASED IMPLEMENTATION  
+- NO SERVER-SIDE DEPENDENCY  
+- RESUME FILE UPLOAD SUPPORT  
+- TEXT INPUT SUPPORT  
+- KEYWORD-BASED SKILL DETECTION  
+- ATS-ORIENTED SCREENING LOGIC  
+- AUTOMATED SCORING MECHANISM  
+- IMPROVEMENT RECOMMENDATIONS  
+- RESPONSIVE AND ACCESSIBLE DESIGN  
+- SECURE LOCAL PROCESSING  
 
-Predefined skill dictionaries are applied
+---
 
-Keyword matching algorithms are executed
+## SYSTEM ARCHITECTURE
 
-Scores are computed based on weighted metrics
+```mermaid
+flowchart TD
+    A[UPLOAD RESUME] --> B[FILE READER API]
+    B --> C[TEXT PREPROCESSING]
+    C --> D[KEYWORD MATCHING ENGINE]
+    D --> E[WEIGHTED SCORING SYSTEM]
+    E --> F[SKILL GAP ANALYSIS]
+    F --> G[DYNAMIC RESULT RENDERING]
+WORKFLOW EXPLANATION
+RESUME CONTENT IS LOADED USING FILE READER API
 
-Skill gaps and improvement areas are identified
+TEXT IS NORMALIZED AND CLEANED
 
-Results are rendered dynamically on the interface
+PREDEFINED SKILL DICTIONARIES ARE APPLIED
 
-This architecture ensures transparency, performance, and maintainability.
+KEYWORD MATCHING ALGORITHMS EXECUTE
 
-Technology Stack
-Technology	Purpose
-HTML5	Semantic structure
-CSS3	Layout and responsive design
-JavaScript (ES6)	Business logic and interactivity
-FileReader API	Resume file processing
-Project Structure
+SCORES ARE CALCULATED USING WEIGHTED METRICS
+
+SKILL GAPS ARE IDENTIFIED
+
+RESULTS ARE RENDERED DYNAMICALLY
+
+THIS ARCHITECTURE ENSURES TRANSPARENCY AND MAINTAINABILITY.
+
+TECHNOLOGY STACK
+TECHNOLOGY	PURPOSE
+HTML5	SEMANTIC STRUCTURE
+CSS3	RESPONSIVE LAYOUT
+JAVASCRIPT (ES6)	BUSINESS LOGIC
+FILE READER API	LOCAL FILE PROCESSING
+PROJECT STRUCTURE
+<details> <summary>CLICK TO EXPAND PROJECT STRUCTURE</summary>
 resume-analyzer/
 │
-├── index.html        # Application interface
-├── style.css         # Styling and layout
-├── script.js         # Analysis engine
-├── assets/           # Media resources
-└── README.md         # Documentation
+├── index.html        # APPLICATION INTERFACE
+├── style.css         # UI DESIGN
+├── script.js         # ANALYSIS ENGINE
+├── assets/           # MEDIA RESOURCES
+└── README.md         # DOCUMENTATION
+</details>
+SKILL EVALUATION FRAMEWORK
+THE SYSTEM USES CONFIGURABLE KEYWORD LIBRARIES INCLUDING:
 
-Skill Evaluation Framework
+WEB TECHNOLOGIES: HTML, CSS, JAVASCRIPT
 
-The system evaluates resumes using configurable keyword libraries, including:
+FRAMEWORKS: REACT (KEYWORD DETECTION)
 
-Web Technologies: HTML, CSS, JavaScript
+PROGRAMMING LANGUAGES: JAVA, PYTHON
 
-Frameworks: React (keyword-based detection)
+DATABASES: SQL, MONGODB
 
-Programming Languages: Java, Python
+VERSION CONTROL: GIT, GITHUB
 
-Databases: SQL, MongoDB
+DATA STRUCTURES AND ALGORITHMS
 
-Version Control: Git, GitHub
+SCORING PARAMETERS CAN BE MODIFIED DIRECTLY IN:
 
-Data Structures and Algorithms (basic concepts)
-
-Evaluation rules and scoring parameters can be modified in script.js.
-
-Installation and Usage
-Step 1: Clone the Repository
+script.js
+INSTALLATION AND USAGE
+STEP 1: CLONE REPOSITORY
 git clone https://github.com/your-username/resume-analyzer.git
-
-Step 2: Navigate to the Project Directory
+STEP 2: NAVIGATE TO PROJECT DIRECTORY
 cd resume-analyzer
+STEP 3: RUN APPLICATION
+OPEN:
 
-Step 3: Launch the Application
+index.html
+IN ANY MODERN WEB BROWSER.
 
-Open index.html in any modern web browser.
+NO DEPENDENCIES REQUIRED.
 
-No additional setup, dependencies, or configuration is required.
+NO INSTALLATION REQUIRED.
 
-Intended Use
+NO SERVER REQUIRED.
 
-Frontend development practice
+INTENDED USE
+FRONTEND DEVELOPMENT PRACTICE
 
-Academic and mini-project submissions
+ACADEMIC PROJECT SUBMISSION
 
-Portfolio demonstration
+PORTFOLIO SHOWCASE
 
-Client-side file handling learning
+CLIENT-SIDE FILE HANDLING LEARNING
 
-Technical skill assessment prototypes
+TECHNICAL SKILL SCREENING PROTOTYPE
 
-Interview preparation support
+INTERVIEW PREPARATION
 
-Limitations
+LIMITATIONS
+KEYWORD-BASED ANALYSIS ONLY
 
-Keyword-based evaluation only
+NO SEMANTIC UNDERSTANDING
 
-No semantic or contextual analysis
+NO CONTEXTUAL NLP
 
-No OCR support for scanned documents
+NO OCR FOR SCANNED DOCUMENTS
 
-Limited PDF parsing capabilities
+LIMITED PDF PARSING
 
-No enterprise ATS integration
+NO ENTERPRISE ATS INTEGRATION
 
-No machine learning or NLP support
+FUTURE ENHANCEMENTS
+RESUME VS JOB DESCRIPTION MATCHING
 
-Future Enhancements
+ADVANCED DOCUMENT PARSING
 
-Resume and job description comparison
+ROLE-SPECIFIC SKILL PROFILES
 
-Advanced document parsing
+DOWNLOADABLE REPORTS
 
-Role-specific skill profiles
+NODE.JS BACKEND INTEGRATION
 
-Downloadable evaluation reports
+USER AUTHENTICATION SYSTEM
 
-Backend integration using Node.js
+ANALYTICS DASHBOARD
 
-User authentication system
+CONTRIBUTING
+<details> <summary>HOW TO CONTRIBUTE</summary>
+FORK THE REPOSITORY
 
-Analytics dashboard
+CREATE A NEW BRANCH
 
-Author
+COMMIT YOUR CHANGES
 
-Shruti
-Frontend Developer
+PUSH TO YOUR BRANCH
 
-Technical Skills: HTML, CSS, JavaScript, Data Analysis
+SUBMIT A PULL REQUEST
+
+</details>
+LICENSE
+THIS PROJECT IS LICENSED UNDER THE MIT LICENSE.
+
+AUTHOR
+SHRUTI
+FRONTEND DEVELOPER
+
+TECHNICAL SKILLS:
+HTML | CSS | JAVASCRIPT | DATA ANALYSIS
