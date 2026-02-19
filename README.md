@@ -76,15 +76,39 @@ UI RESPONSIVENESS ████████████░░ 90%
 THE APPLICATION FOLLOWS A STRUCTURED CLIENT-SIDE ANALYSIS PIPELINE.
 
 ## WORKFLOW DIAGRAM
-
-```mermaid
-flowchart TD
-    A[RESUME UPLOAD] --> B[FILE READER API]
-    B --> C[TEXT PREPROCESSING]
-    C --> D[SKILL DICTIONARY MATCHING]
-    D --> E[SCORING ENGINE]
-    E --> F[SKILL GAP IDENTIFICATION]
-    F --> G[RESULT RENDERING UI]
++----------------------+
+|     RESUME UPLOAD    |
++----------------------+
+            |
+            v
++----------------------+
+|    FILE READER API   |
++----------------------+
+            |
+            v
++----------------------+
+|   TEXT NORMALIZATION |
++----------------------+
+            |
+            v
++----------------------+
+| KEYWORD MATCH ENGINE |
++----------------------+
+            |
+            v
++----------------------+
+|   WEIGHTED SCORING   |
++----------------------+
+            |
+            v
++----------------------+
+|  SKILL GAP ANALYSIS  |
++----------------------+
+            |
+            v
++----------------------+
+|   RESULT RENDERING   |
++----------------------+
 
 RESUME CONTENT IS LOADED USING FILE READER API
 
