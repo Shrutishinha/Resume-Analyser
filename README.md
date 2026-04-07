@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2500&pause=800&color=0A66C2&center=true&vCenter=true&width=950&lines=RESUME+ANALYZER;FRONTEND+RESUME+EVALUATION+SYSTEM;CLIENT+SIDE+PROCESSING+ONLY;BUILT+USING+HTML+CSS+JAVASCRIPT;SECURE+FAST+OFFLINE+READY" />
 </p>
 
-<p align="center">
+<p align="center">hi
   <img src="https://img.shields.io/badge/HTML5-STRUCTURE-orange?style=for-the-badge&logo=html5" />
   <img src="https://img.shields.io/badge/CSS3-STYLING-blue?style=for-the-badge&logo=css3" />
   <img src="https://img.shields.io/badge/JAVASCRIPT-LOGIC-yellow?style=for-the-badge&logo=javascript" />
