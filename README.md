@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center">hi
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2500&pause=800&color=0A66C2&center=true&vCenter=true&width=950&lines=RESUME+ANALYZER;FRONTEND+RESUME+EVALUATION+SYSTEM;CLIENT+SIDE+PROCESSING+ONLY;BUILT+USING+HTML+CSS+JAVASCRIPT;SECURE+FAST+OFFLINE+READY" />
 </p>
 
