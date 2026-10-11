@@ -9,12 +9,13 @@
 
 <!-- 🧠 BADGES -->
 
+
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-STRUCTURE-orange?style=for-the-badge&logo=html5" />
-  <img src="https://img.shields.io/badge/CSS3-STYLING-blue?style=for-the-badge&logo=css3" />
-  <img src="https://img.shields.io/badge/JAVASCRIPT-LOGIC-yellow?style=for-the-badge&logo=javascript" />
-  <img src="https://img.shields.io/badge/ARCHITECTURE-FRONTEND_ONLY-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/STATUS-PRODUCTION_READY-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/HTML5-STRUCTURE-orange?style=for-the-badge&logo=html5" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-STYLING-blue?style=for-the-badge&logo=css3" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JAVASCRIPT-LOGIC-yellow?style=for-the-badge&logo=javascript" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/ARCHITECTURE-FRONTEND--ONLY-success?style=for-the-badge" alt="Frontend Only" />
+  <img src="https://img.shields.io/badge/STATUS-PRODUCTION--READY-brightgreen?style=for-the-badge" alt="Production Ready" />
 </p>
 
 ---
