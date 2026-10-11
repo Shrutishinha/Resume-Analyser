@@ -10,14 +10,15 @@
 <!-- 🧠 BADGES -->
 
 
+```html
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-STRUCTURE-orange?style=for-the-badge&logo=html5" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-STYLING-blue?style=for-the-badge&logo=css3" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JAVASCRIPT-LOGIC-yellow?style=for-the-badge&logo=javascript" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/ARCHITECTURE-FRONTEND--ONLY-success?style=for-the-badge" alt="Frontend Only" />
-  <img src="https://img.shields.io/badge/STATUS-PRODUCTION--READY-brightgreen?style=for-the-badge" alt="Production Ready" />
+  <img src="https://img.shields.io/badge/HTML5-STRUCTURE-orange?style=for-the-badge&amp;logo=html5" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-STYLING-blue?style=for-the-badge&amp;logo=css3" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JAVASCRIPT-LOGIC-yellow?style=for-the-badge&amp;logo=javascript" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/ARCHITECTURE-FRONTEND--ONLY-success?style=for-the-badge" alt="Architecture" />
+  <img src="https://img.shields.io/badge/STATUS-PRODUCTION--READY-brightgreen?style=for-the-badge" alt="Status" />
 </p>
-
+```
 ---
 
 <img src="https://user-images.githubusercontent.com/74038190/212284126-0f9c6b52-8c35-4c63-8b8b-9c8c8f9c0c3b.gif" width="100%">
